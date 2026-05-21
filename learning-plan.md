@@ -1,69 +1,41 @@
 # 个人学习计划
 
-> 创建：2026-05-21 | 最后更新：2026-05-21
+> 创建：2026-05-21 | 最后更新：2026-05-21 | 模式：7 天强化
 
-## 整体路线
+## 7 天路线
 
-按 Handbook 四层地图从零开始，重点倾向「开发」方向。
+```
+Day 1  LLM + Prompt              模型底层逻辑 + Prompt 接口设计
+Day 2  Context + RAG + MCP       信息管理和检索
+Day 3  Agent + Frameworks + Eval 执行系统 + 工程组织
+Day 4  Web3 基础（上）            网络/密码学/钱包/合约
+Day 5  Web3 基础（下）            AA/DeFi/Oracle/Indexing/Security
+Day 6  AI × Web3 Bridge（上）     链上下文/工具/工作流/钱包/支付/结算
+Day 7  AI × Web3 Bridge（下）     身份/信任/可验证/安全/隐私/治理 + 方向
+```
 
-### Phase 1：AI 基础（预计 3-4 周）
+详见 `7day-intensified-plan.md`。
 
-| 模块 | 状态 | 笔记 |
-|------|------|------|
-| LLM — 大模型能力与边界 | ⬜ | |
-| Prompt — 任务目标、边界、输出格式 | ⬜ | |
-| Context — 上下文窗口、信息可信度 | ⬜ | |
-| RAG — 外部知识接入 | ⬜ | |
-| Agent — 工具调用与多步执行 | ⬜ | |
-| Frameworks — LangChain、LangGraph、Agents SDK | ⬜ | |
-| MCP — 模型、工具、上下文的协议连接 | ⬜ | |
-| Evaluation — 测试、回放、持续改进 | ⬜ | |
+## 每日输出
 
-### Phase 2：Web3 基础（预计 3-4 周）
+| 产出 | 位置 |
+|------|------|
+| 每日学习笔记 | `daily/YYYY-MM-DD.md` |
+| 实验/代码 | `experiments/` |
+| 打卡草稿 | 在 daily note 底部 |
 
-| 模块 | 状态 | 笔记 |
-|------|------|------|
-| Network — 区块、共识、L2、RPC | ⬜ | |
-| Cryptography — 哈希、公私钥、签名 | ⬜ | |
-| Wallet — 身份与签名入口 | ⬜ | |
-| Smart Contract — 链上规则 | ⬜ | |
-| Account Abstraction — Smart Account | ⬜ | |
-| DeFi — 开放金融协议 | ⬜ | |
-| Oracle — 链外数据上链 | ⬜ | |
-| Indexing — 链上数据整理 | ⬜ | |
-| Security — 合约和权限风险 | ⬜ | |
+## 学习方向
 
-### Phase 3：AI × Web3 Bridge（预计 4-5 周）
-
-| 模块 | 状态 | 笔记 |
-|------|------|------|
-| Chain-aware Context | ⬜ | |
-| Web3 Tool Use | ⬜ | |
-| Agent Workflow | ⬜ | |
-| Agent Wallet | ⬜ | |
-| Machine Payment | ⬜ | |
-| Settlement & Escrow | ⬜ | |
-| Agent Identity | ⬜ | |
-| Agent Trust & Reputation | ⬜ | |
-| Verifiable AI | ⬜ | |
-| AI Security | ⬜ | |
-| AI Privacy | ⬜ | |
-| Governance AI | ⬜ | |
-
-### Phase 4：前沿探索 + Hackathon 项目
-
-待 Phase 1-3 完成后规划具体方向。
-
-## 每周节奏
-
-- **工作日**：每天约 2 小时，读 Handbook + 实践
-- **周末**：回顾本周 + 整理笔记 + Experiment
-- **打卡**：每天一次，晚上完成学习后提交
+想做 **Web3+AI 游戏**。感兴趣的赛道：
+- 可验证 Agent 身份
+- 隐私安全与主权 AI
 
 ## 里程碑
 
-- [ ] Week 2：完成 AI 基础前 4 个模块
-- [ ] Week 4：完成全部 AI 基础模块 + 一个小实验
-- [ ] Week 8：完成全部 Web3 基础模块 + 链上交互实验
-- [ ] Week 12：完成 AI × Web3 Bridge + 原型项目
-- [ ] 参加一期 Hackathon
+- [ ] Day 1：LLM + Prompt
+- [ ] Day 2：Context + RAG + MCP
+- [ ] Day 3：Agent + Frameworks + Eval
+- [ ] Day 4：Web3 基础（上）
+- [ ] Day 5：Web3 基础（下）
+- [ ] Day 6：AI × Web3 Bridge（上）
+- [ ] Day 7：AI × Web3 Bridge（下）+ 方向选定
